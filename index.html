@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bark.css">
+    <script src="bark.js"></script>
+    <title>Page Title</title>
+</head>
+
+<body>
+
+    <header class="bark-nav">
+        <div class="bark-nav__container">
+            <img class="bark-nav__logo" src="assets\layers\svg\logo.svg">
+            <img class="bark-nav__bag" src="assets\layers\svg\bag.svg">
+        </div>
+    </header>
+    <section class="bark-intro">
+        <div class="bark-intro__container">
+            <h1 class="bark-intro__heading">Ornare Vulputate Elit</h1>
+            <p class="bark-intro__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum est a
+                imperdiet lobortis. Duis aliquet velit nec ex maximus finibus. Nullam efficitur rutrum aliquam. Mauris
+                nec augue nibh. Fusce pretium enim et eros posuere, sit amet condimentum lectus rutrum.
+            </p>
+        </div>
+    </section>
+    <section class="bark-product">
+        <div class="bark-product__container">
+            <div class="bark-product__item">
+                <img class="bark-product__img" src="assets\layers\png\chicken.png">
+                <p class="bark-product__product-info">Natures Menu Dog Food Can Chicken<br><br><span>£22.81</span></p>
+                <button class="bark-product__product-btn">Add to Bag</button>
+            </div>
+        </div>
+        <div class="bark-cart is-hidden">
+            <div class="bark-cart__contents">
+                <div class="bark-cart__header-container">
+                    <h2>Your Bag</h2>
+                    <button class="bark-cart__close">X</button>
+                </div>
+                <div class="bark-cart__products-container">
+                    <div class="bark-cart__products-item">
+                        <img class="bark-cart__product-img" src="assets\layers\png\chicken.png">
+                        <div class="bark-cart__product-info">
+                            <p class="bark-cart__product-title">Natures Menu Dog Food Can
+                                Chicken<br><br><span>£22.81</span>
+                            </p>
+                            <a class="bark-cart__product-remove" role="button">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bark-cart__totals-container">
+                    <p>Subtotal: £22.81</p>
+                    <button>Proceed To Checkout</button>
+                    <a>Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
