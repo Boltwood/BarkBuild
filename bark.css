@@ -10,27 +10,23 @@ body {
   align-items: center;
   padding: 80px 60px;
 }
-
-.bark-nav__logo {
+.bark-nav__container .bark-nav__logo {
   width: 25%;
 }
-
-.bark-nav__bag {
+.bark-nav__container .bark-nav__bag {
   width: 75px;
   height: 75px;
 }
 
-.bark-intro__container {
+.bark-intro .bark-intro__container {
   text-align: center;
   padding: 0 40px;
 }
-
-.bark-intro__heading {
+.bark-intro .bark-intro__container .bark-intro__heading {
   font-size: 70px;
   font-weight: bold;
 }
-
-.bark-intro__para {
+.bark-intro .bark-intro__container .bark-intro__para {
   font-size: 16px;
   padding-bottom: 60px;
 }
@@ -39,31 +35,26 @@ body {
   background: #ebf6f8;
   padding: 10% 10%;
 }
-
-.bark-product__container {
+.bark-product .bark-product__container {
   background: #fff;
 }
-
-.bark-product__item {
+.bark-product .bark-product__container .bark-product__item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   border: 1px solid #ebebeb;
 }
-
-.bark-product__product-info {
+.bark-product .bark-product__container .bark-product__item .bark-product__product-info {
   font-size: 40px;
   padding: 0 80px;
 }
-
-.bark-product__product-info span {
+.bark-product .bark-product__container .bark-product__item .bark-product__product-info span {
   font-size: 40px;
   font-weight: bold;
   color: #ff5c00;
 }
-
-.bark-product__product-btn {
+.bark-product .bark-product__container .bark-product__item .bark-product__product-btn {
   background: #ff5c00;
   width: 400px;
   margin: auto;
@@ -92,3 +83,5 @@ body {
   transition: all 0.25s ease-in-out;
   transform: translate(-100%, 0);
 }
+
+/*# sourceMappingURL=bark.css.map */

@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         concat: {
             "options": { "separator": ";" },
             "build": {
-                "src": ["js/file1.js", "js/file2.js"],
+                "src": ["js/bark.js"],
                 "dest": "js/app.js"
             }
         }
