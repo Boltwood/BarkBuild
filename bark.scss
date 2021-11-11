@@ -1,26 +1,44 @@
+$primary-color: #000;
+$breakpoint-mobile: 768px;
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
-.bark-nav__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 80px 60px;
+section.bark-main {
+  display: grid;
+  grid-template-rows: auto auto;
+  height: 100vh;
+}
 
-  .bark-nav__logo {
-    width: 25%;
-  }
+header.bark-nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
 
-  .bark-nav__bag {
-    width: 75px;
-    height: 75px;
+  .bark-nav__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+
+    .bark-nav__logo {
+      width: 25%;
+    }
+
+    .bark-nav__bag {
+      width: 75px;
+      height: 75px;
+    }
   }
 }
 
 .bark-intro {
+  padding-top: 150px;
+  margin: auto;
+
   .bark-intro__container {
     text-align: center;
     padding: 0 40px;
@@ -33,6 +51,7 @@ body {
     .bark-intro__para {
       font-size: 16px;
       padding-bottom: 60px;
+      color: $primary-color;
     }
   }
 }
@@ -40,6 +59,8 @@ body {
 .bark-product {
   background: #ebf6f8;
   padding: 10% 10%;
+  padding-top: 150px;
+  margin: auto;
 
   .bark-product__container {
     background: #fff;
@@ -50,6 +71,10 @@ body {
       justify-content: center;
       text-align: center;
       border: 1px solid #ebebeb;
+
+      .bark-product__img {
+        width: 100% !important;
+      }
 
       .bark-product__product-info {
         font-size: 40px;
@@ -93,4 +118,29 @@ body {
   background-color: #fff;
   transition: all 0.25s ease-in-out;
   transform: translate(-100%, 0);
+}
+
+@media (min-width: 1024px) {
+  header.bark-nav {
+    .bark-nav__container {
+      .bark-nav__logo {
+        width: 10%;
+      }
+      .bark-nav__bag {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  section.bark-main {
+    grid-template-columns: auto auto;
+
+    .bark-product {
+      .bark-product__img {
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
 }
