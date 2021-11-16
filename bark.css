@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100%;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-wrapper {
+  background: #fff none repeat scroll 0% 0%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+.page-wrapper .header .header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+.page-wrapper .header .header-content .header-logo {
+  width: 25%;
+}
+.page-wrapper .header .header-content .header-cart {
+  width: 5%;
+}
+.page-wrapper .bark-main .bark-block--content {
+  text-align: center;
+}
+.page-wrapper .bark-main .bark-block--content .bark-block__container {
+  padding: 40px 20px;
+}
+.page-wrapper .bark-main .bark-block--product {
+  background: #ebf6f8;
+  text-align: center;
+  padding: 50px 20px;
+}
+.page-wrapper .bark-main .bark-block--product .bark-block__container {
+  background: #fff;
+}
+.page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__image {
+  width: 70%;
+}
+.page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__title {
+  font-weight: 500;
+  padding: 0 50px;
+}
+.page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__price {
+  color: #ff5c00;
+  font-weight: bold;
+}
+.page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__btn {
+  display: inline-block;
+  background: #ff5c00;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=bark.css.map */

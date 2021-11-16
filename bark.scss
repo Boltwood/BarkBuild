@@ -1,0 +1,74 @@
+$primary-color: #000;
+$breakpoint-desktop: 1024px;
+$background-main: #fff;
+$background-secondary: #ebf6f8;
+$background-btn: #ff5c00;
+
+body {
+  margin: 0;
+  height: 100%;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-wrapper {
+  background: #fff none repeat scroll 0% 0%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0 auto;
+
+  .header {
+    .header-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 15px;
+
+      .header-logo {
+        width: 25%;
+      }
+
+      .header-cart {
+        width: 5%;
+      }
+    }
+  }
+
+  .bark-main {
+    .bark-block--content {
+      text-align: center;
+      .bark-block__container {
+        padding: 40px 20px;
+      }
+    }
+    .bark-block--product {
+      background: $background-secondary;
+      text-align: center;
+      padding: 50px 20px;
+      .bark-block__container {
+        background: $background-main;
+        .bark-block__image {
+          width: 70%;
+        }
+        .bark-block__title {
+          font-weight: 500;
+          padding: 0 50px;
+        }
+        .bark-block__price {
+          color: #ff5c00;
+          font-weight: bold;
+        }
+        .bark-block__btn {
+          display: inline-block;
+          background: $background-btn;
+          color: #fff;
+          text-decoration: none;
+          padding: 15px 20px;
+          text-transform: uppercase;
+          border-radius: 25px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
