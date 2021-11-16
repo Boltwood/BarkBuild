@@ -134,6 +134,7 @@ body {
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__total p {
   font-weight: bold;
   margin: 0;
+  font-size: 18px;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__total button {
   background: #ff5c00;
