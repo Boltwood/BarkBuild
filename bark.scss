@@ -3,11 +3,11 @@ $breakpoint-desktop: 1024px;
 $background-main: #fff;
 $background-secondary: #ebf6f8;
 $background-btn: #ff5c00;
+$brand-lightgrey: #ebebeb;
+$brand-darkgrey: #bdb7b7;
 
 body {
   margin: 0;
-  height: 100%;
-  position: absolute;
   font-family: "Roboto", sans-serif;
 }
 
@@ -39,19 +39,25 @@ body {
       text-align: center;
       .bark-block__container {
         padding: 40px 20px;
+        .bark-block__paragraph {
+          color: $brand-darkgrey;
+        }
       }
     }
     .bark-block--product {
       background: $background-secondary;
       text-align: center;
-      padding: 50px 20px;
+      padding: 41px 20px;
+
       .bark-block__container {
         background: $background-main;
+        border: $brand-lightgrey;
+        padding: 20px 0;
         .bark-block__image {
           width: 70%;
         }
         .bark-block__title {
-          font-weight: 500;
+          font-weight: 600;
           padding: 0 50px;
         }
         .bark-block__price {
@@ -63,10 +69,63 @@ body {
           background: $background-btn;
           color: #fff;
           text-decoration: none;
-          padding: 15px 20px;
+          padding: 15px 40px;
           text-transform: uppercase;
           border-radius: 25px;
           margin-bottom: 10px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    .header {
+      position: absolute;
+      width: 100%;
+      .header-content {
+        align-items: center;
+        padding: 40px;
+        .header-logo {
+          width: 10%;
+        }
+
+        .header-cart {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    .bark-main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 100vh;
+      .bark-block--content {
+        margin: auto;
+        .bark-block__container {
+          padding: 0;
+          max-width: 65%;
+          margin: auto;
+          .bark-block__heading {
+            font-size: 35px;
+          }
+          .bark-block__paragraph {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .bark-block--product {
+        padding: 150px 20px;
+        display: flex;
+        align-items: center;
+        .bark-block__container {
+          width: fit-content;
+          margin: auto;
+          .bark-block__image {
+            width: 100%;
+          }
         }
       }
     }

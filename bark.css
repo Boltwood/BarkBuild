@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  height: 100%;
-  position: absolute;
   font-family: "Roboto", sans-serif;
 }
 
@@ -29,19 +27,24 @@ body {
 .page-wrapper .bark-main .bark-block--content .bark-block__container {
   padding: 40px 20px;
 }
+.page-wrapper .bark-main .bark-block--content .bark-block__container .bark-block__paragraph {
+  color: #bdb7b7;
+}
 .page-wrapper .bark-main .bark-block--product {
   background: #ebf6f8;
   text-align: center;
-  padding: 50px 20px;
+  padding: 41px 20px;
 }
 .page-wrapper .bark-main .bark-block--product .bark-block__container {
   background: #fff;
+  border: #ebebeb;
+  padding: 20px 0;
 }
 .page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__image {
   width: 70%;
 }
 .page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__title {
-  font-weight: 500;
+  font-weight: 600;
   padding: 0 50px;
 }
 .page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__price {
@@ -53,10 +56,59 @@ body {
   background: #ff5c00;
   color: #fff;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 15px 40px;
   text-transform: uppercase;
   border-radius: 25px;
   margin-bottom: 10px;
+  font-size: 14px;
+}
+@media (min-width: 1024px) {
+  .page-wrapper .header {
+    position: absolute;
+    width: 100%;
+  }
+  .page-wrapper .header .header-content {
+    align-items: center;
+    padding: 40px;
+  }
+  .page-wrapper .header .header-content .header-logo {
+    width: 10%;
+  }
+  .page-wrapper .header .header-content .header-cart {
+    width: 30px;
+    height: 30px;
+  }
+  .page-wrapper .bark-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }
+  .page-wrapper .bark-main .bark-block--content {
+    margin: auto;
+  }
+  .page-wrapper .bark-main .bark-block--content .bark-block__container {
+    padding: 0;
+    max-width: 60%;
+    margin: auto;
+  }
+  .page-wrapper .bark-main .bark-block--content .bark-block__container .bark-block__heading {
+    font-size: 35px;
+  }
+  .page-wrapper .bark-main .bark-block--content .bark-block__container .bark-block__paragraph {
+    font-size: 20px;
+  }
+  .page-wrapper .bark-main .bark-block--product {
+    padding: 150px 20px;
+    display: flex;
+    align-items: center;
+  }
+  .page-wrapper .bark-main .bark-block--product .bark-block__container {
+    width: fit-content;
+    margin: auto;
+  }
+  .page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__image {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=bark.css.map */
