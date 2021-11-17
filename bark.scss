@@ -47,7 +47,7 @@ body {
     .bark-block--product {
       background: $background-secondary;
       text-align: center;
-      padding: 25px 20px;
+      padding: 41px 20px;
 
       .bark-block__container {
         background: $background-main;
@@ -90,7 +90,6 @@ body {
         left: 100%;
         width: 90%;
         height: 100%;
-        overflow: auto;
         background-color: #fff;
         transition: all 0.25s ease-in-out;
         transform: translate(-100%, 0);
@@ -104,6 +103,7 @@ body {
           justify-content: space-between;
           padding: 5px 20px;
           border-bottom: 1px solid $brand-lightgrey;
+          align-items: center;
 
           .bark-cart__close {
             background: none;
@@ -219,7 +219,7 @@ body {
       }
 
       .bark-block--product {
-        padding: 150px 20px;
+        padding: 232px 20px;
         display: flex;
         align-items: center;
         .bark-block__container {

@@ -33,7 +33,7 @@ body {
 .page-wrapper .bark-main .bark-block--product {
   background: #ebf6f8;
   text-align: center;
-  padding: 25px 20px;
+  padding: 41px 20px;
 }
 .page-wrapper .bark-main .bark-block--product .bark-block__container {
   background: #fff;
@@ -72,7 +72,6 @@ body {
   left: 100%;
   width: 90%;
   height: 100%;
-  overflow: auto;
   background-color: #fff;
   transition: all 0.25s ease-in-out;
   transform: translate(-100%, 0);
@@ -86,6 +85,7 @@ body {
   justify-content: space-between;
   padding: 5px 20px;
   border-bottom: 1px solid #ebebeb;
+  align-items: center;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__header .bark-cart__close {
   background: none;
@@ -192,7 +192,7 @@ body {
     font-size: 20px;
   }
   .page-wrapper .bark-main .bark-block--product {
-    padding: 150px 20px;
+    padding: 232px 20px;
     display: flex;
     align-items: center;
   }
