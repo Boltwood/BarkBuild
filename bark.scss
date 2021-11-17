@@ -205,6 +205,8 @@ body {
       height: 100vh;
       .bark-block--content {
         margin: auto;
+        height: inherit;
+        display: flex;
         .bark-block__container {
           padding: 0;
           max-width: 65%;
@@ -219,9 +221,10 @@ body {
       }
 
       .bark-block--product {
-        padding: 232px 20px;
         display: flex;
         align-items: center;
+        height: inherit;
+        padding: 0;
         .bark-block__container {
           width: fit-content;
           margin: auto;
@@ -233,7 +236,7 @@ body {
 
       .bark-cart {
         .bark-cart__contents {
-          width: 30%;
+          width: 33%;
           .bark-cart__product {
             .bark-cart__product-item {
               align-items: center;
