@@ -121,11 +121,12 @@ body {
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__product .bark-cart__product-item .bark-cart__product-info .bark-cart__product-remove {
   color: #bdb7b7;
-  text-decoration: underline;
+  border-bottom: 2px solid #bdb7b7;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
   letter-spacing: 2px;
+  padding-bottom: 3px;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__total {
   display: flex;
@@ -152,11 +153,12 @@ body {
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__total a {
   color: #000;
-  text-decoration: underline;
+  border-bottom: 2px solid #000;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
+  padding-bottom: 3px;
 }
 @media (min-width: 1024px) {
   .page-wrapper .header {

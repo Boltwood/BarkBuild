@@ -1,10 +1,4 @@
-$primary-color: #000;
-$breakpoint-desktop: 1024px;
-$background-main: #fff;
-$background-secondary: #ebf6f8;
-$background-btn: #ff5c00;
-$brand-lightgrey: #ebebeb;
-$brand-darkgrey: #bdb7b7;
+@import "var.scss";
 
 body {
   margin: 0;
@@ -139,11 +133,12 @@ body {
               }
               .bark-cart__product-remove {
                 color: $brand-darkgrey;
-                text-decoration: underline;
+                border-bottom: 2px solid $brand-darkgrey;
                 text-transform: uppercase;
                 font-weight: bold;
                 font-size: 12px;
                 letter-spacing: 2px;
+                padding-bottom: 3px;
               }
             }
           }
@@ -172,11 +167,12 @@ body {
           }
           a {
             color: $primary-color;
-            text-decoration: underline;
+            border-bottom: 2px solid #000;
             text-transform: uppercase;
             font-weight: bold;
             font-size: 14px;
             letter-spacing: 2px;
+            padding-bottom: 3px;
           }
         }
       }
