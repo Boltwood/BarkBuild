@@ -169,8 +169,12 @@ body {
       text-align: center;
       .bark-block__container {
         padding: 40px 20px;
+        .bark-block__heading {
+          font-weight: 400;
+        }
         .bark-block__paragraph {
           color: $brand-darkgrey;
+          font-weight: 300;
         }
       }
     }
@@ -184,12 +188,12 @@ body {
         border: $brand-lightgrey;
         padding: 20px 0;
         border-radius: 5px;
-        box-shadow: 0 0 20px $brand-darkgrey;
+        box-shadow: 0 10px 25px rgb(0 0 0 / 16%);
         .bark-block__image {
           width: 70%;
         }
         .bark-block__title {
-          font-weight: 600;
+          font-weight: 300;
           padding: 0 50px;
         }
         .bark-block__price {
@@ -274,7 +278,8 @@ body {
             }
             .bark-cart__product-info {
               .bark-cart__product-title {
-                font-weight: 600;
+                font-weight: 300;
+                line-height: 1.5;
                 margin: 0;
               }
               .bark-cart__product-price {
@@ -346,6 +351,7 @@ body {
         .header-cart {
           width: 30px;
           height: 40px;
+          cursor: pointer;
           .bark-count {
             font-size: 18px;
             top: 30%;
