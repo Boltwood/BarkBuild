@@ -73,7 +73,7 @@ body {
   width: 90%;
   height: 100%;
   background-color: #fff;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.5s ease-in-out;
   transform: translate(-100%, 0);
   border-left: 1px solid #ebebeb;
   display: grid;
