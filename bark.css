@@ -39,6 +39,8 @@ body {
   background: #fff;
   border: #ebebeb;
   padding: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #bdb7b7;
 }
 .page-wrapper .bark-main .bark-block--product .bark-block__container .bark-block__image {
   width: 70%;
