@@ -296,7 +296,7 @@ body {
   padding-bottom: 3px;
   cursor: pointer;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .page-wrapper .header {
     position: absolute;
     width: 100%;
