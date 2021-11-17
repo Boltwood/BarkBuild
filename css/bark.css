@@ -164,6 +164,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 20px 0;
+  cursor: pointer;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__total a {
   color: #000;
@@ -173,6 +174,7 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   padding-bottom: 3px;
+  cursor: pointer;
 }
 @media (min-width: 1024px) {
   .page-wrapper .header {
