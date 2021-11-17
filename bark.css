@@ -77,6 +77,8 @@ body {
   transition: all 0.25s ease-in-out;
   transform: translate(-100%, 0);
   border-left: 1px solid #ebebeb;
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__header {
   display: flex;
@@ -92,13 +94,15 @@ body {
   font-size: 16px;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__product {
-  border-bottom: 1px solid #ebebeb;
-  margin: 0 30px;
   padding: 30px 0;
+  overflow-y: scroll;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__product .bark-cart__product-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 30px;
+  margin: 15px;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__product .bark-cart__product-item .bark-cart__product-img {
   width: 80%;
@@ -127,9 +131,6 @@ body {
   align-items: center;
   border-top: 1px solid #ebebeb;
   padding: 20px;
-  position: absolute;
-  bottom: 0;
-  width: -webkit-fill-available;
 }
 .page-wrapper .bark-main .bark-cart .bark-cart__contents .bark-cart__total p {
   font-weight: bold;
