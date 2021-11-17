@@ -152,12 +152,13 @@ body {
       }
 
       .header-cart {
-        width: 5%;
+        width: 30px;
+        height: 40px;
         position: relative;
         .bark-count {
           position: absolute;
-          left: 20%;
-          top: 10%;
+          left: 10px;
+          top: 13px;
         }
       }
     }
@@ -344,10 +345,10 @@ body {
 
         .header-cart {
           width: 30px;
-          height: 30px;
+          height: 40px;
           .bark-count {
             font-size: 18px;
-            top: 35%;
+            top: 30%;
             left: 30%;
           }
         }

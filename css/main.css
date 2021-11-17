@@ -133,13 +133,14 @@ body {
   width: 25%;
 }
 .page-wrapper .header .header-content .header-cart {
-  width: 5%;
+  width: 30px;
+  height: 40px;
   position: relative;
 }
 .page-wrapper .header .header-content .header-cart .bark-count {
   position: absolute;
-  left: 20%;
-  top: 10%;
+  left: 10px;
+  top: 13px;
 }
 .page-wrapper .bark-main .bark-block--content {
   text-align: center;
@@ -310,11 +311,11 @@ body {
   }
   .page-wrapper .header .header-content .header-cart {
     width: 30px;
-    height: 30px;
+    height: 40px;
   }
   .page-wrapper .header .header-content .header-cart .bark-count {
     font-size: 18px;
-    top: 35%;
+    top: 30%;
     left: 30%;
   }
   .page-wrapper .bark-main {
